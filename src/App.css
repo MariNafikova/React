@@ -1,27 +1,23 @@
 .main{
-  text-align: left;
   margin: 0 auto ;
 }
 .form{
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 20px;
   width: 180px;
 }
 .formInput {
-  margin-bottom: 15px;
   padding-left: 10px;
-  width: inherit;
   height: 25px;
   border-radius: 6px;
   background: #E1E1E1;
   border: none;
 }
 .formButton {
-  height: 25px;
-  width: 100px;
   border-radius: 6px;
   border: none;
-  background: #a37fff;
 }
 .answerBlock {
   text-align: left;
